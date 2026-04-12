@@ -67,3 +67,5 @@ let varI = (H) => {
 };
 
 console.log(varI(10));
+
+console.log("커밋 테스트");
