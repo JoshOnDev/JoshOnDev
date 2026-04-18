@@ -39,3 +39,4 @@ const func = ({ name, age, hobby, extra }) => {
 };
 
 func(person);
+//함수의 인수로는 객체를 넣어줘야 함
