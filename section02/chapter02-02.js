@@ -19,5 +19,32 @@ function girl(woman) {
   console.log("여자임.");
 }
 
-let woman = { sex: "woman" };
-girl(woman);
+// let woman = { sex: "woman" };
+// girl(woman);
+
+// function person(woon) {
+//   if (!woon) {
+//     console.log("운이 아닙니다.");
+//   }
+//   console.log("운입니다.");
+// }
+
+// let woon = { name: "성운" };
+
+// person(woon);
+
+// let person = {
+//   name: "정성운",
+//   age: 27,
+//   hobby: "coding",
+// };
+
+function name(value) {
+  console.log(value);
+  value();
+}
+
+name(function me() {
+  console.log("정성운");
+  console.log("입니다");
+});
