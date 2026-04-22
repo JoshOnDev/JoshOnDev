@@ -91,3 +91,16 @@ const func4 = (age) => {
 console.log(func4(people.age));
 
 const func5 = ({ name, age }) => {};
+
+function a(value) {
+  console.log("a 함수입니다.");
+  console.log(value);
+  value();
+}
+
+a(function b() {
+  console.log("b 콜백함수 입니다.");
+});
+// a 함수 입니다.
+// b()함수 자체
+// b 콜백함수 입니다.

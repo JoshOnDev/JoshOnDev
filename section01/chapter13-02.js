@@ -1,11 +1,11 @@
-function main(value) {
-  //   console.log(value);
-  value();
-}
+// function main(value) {
+//   //   console.log(value);
+//   value();
+// }
 
-function sub() {
-  console.log("나는 콜백함수 sub입니다");
-}
+// function sub() {
+//   console.log("나는 콜백함수 sub입니다");
+// }
 
 // main(sub);
 
@@ -18,11 +18,12 @@ function sub() {
 // });
 
 function name(value) {
+  console.log("name ㄴㄴ함수입니다.");
   console.log(value);
   value();
 }
 
-name(function () {
+name(function cb() {
   console.log("my name is seongwoon");
 });
 //함수
