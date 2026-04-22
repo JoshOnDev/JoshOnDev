@@ -106,15 +106,21 @@ let cafe = {
 
 let cc = Object.keys(cafe);
 
+// for (let item of cc) {
+//   console.log(item, cafe[item]);
+// }
+
+console.log("enter");
 for (let item of cc) {
-  console.log(item, cafe[item]);
+  const value = cafe[item];
+  console.log(item, value);
 }
 
 // 2.2 Object.values()
 // 객체에서 value값들만 뽑아서 새로운 배열로 반환
 
-let values = Object.values(cat);
+// let values = Object.values(cat);
 
-for (item of values) {
-  console.log(item);
-} // 1, black
+// for (item of values) {
+//   console.log(item);
+// } // 1, black
