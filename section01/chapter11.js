@@ -36,7 +36,7 @@ function getArea(weight, height) {
 }
 
 getArea(10, 20);
-
+console.log("dd");
 let area1 = getArea(20, 20);
 
 getArea(100, 200);

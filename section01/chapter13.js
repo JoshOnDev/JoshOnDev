@@ -1,18 +1,18 @@
-// 1. 콜백함수
-function main(value) {
-  console.log(value);
-}
-main(1);
+// // 1. 콜백함수
+// function main(value) {
+//   console.log(value);
+// }
+// main(1);
 
-function main2(value) {
-  console.log(value);
-}
+// function main2(value) {
+//   console.log(value);
+// }
 
-function sub() {
-  console.log("i am sub");
-}
+// function sub() {
+//   console.log("i am sub");
+// }
 
-main2(sub);
+// main2(sub());
 
 // 복습
 // 서브2 함수(콜백) 내요을 main3으로 호출하기
@@ -25,9 +25,10 @@ function sub2() {
 }
 
 main3(sub2);
+// i am sub 2
 
 function main4(value) {
-  //   console.log("안녕");
+  console.log("안녕");
   value();
 }
 
@@ -36,6 +37,7 @@ function sub4() {
 }
 
 main4(sub4);
+// 안녕 i am sub4
 
 function main5(value) {
   console.log("hi");
@@ -106,4 +108,16 @@ function repeat2(count, callback) {
 
 repeat2(5, function (num) {
   console.log(num);
+});
+
+console.log("enter");
+
+function repeat3(number, ind) {
+  for (let idx = 1; idx < number; idx++) {
+    ind(idx);
+  }
+}
+
+repeat3(5, function dd(idx) {
+  console.log(idx * 2);
 });

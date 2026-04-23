@@ -21,6 +21,8 @@ let myName = "정성운";
 let myLocation = "목동";
 let introduce = myName + myLocation;
 
+let a = 1;
+console.log(myName / a);
 //console.log(introduce);
 
 let introduceText = `${myName}은 ${myLocation}에 거주합니다`;

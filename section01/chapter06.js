@@ -16,12 +16,12 @@ const result = num + str;
 let str1 = "10";
 let strToNum1 = Number(str1);
 //Number 은 자바스크립트의 내장함수임
-//console.log(10 + strToNum1);
+console.log(10 + strToNum1);
 
 let str2 = "10개";
 let strToNum2 = Number(str2);
-
-//console.log(strToNum2);
+console.log("dd");
+console.log(strToNum2);
 // -> Nan (Not a Number), 사칙 연산 실패
 
 let str3 = "20개";

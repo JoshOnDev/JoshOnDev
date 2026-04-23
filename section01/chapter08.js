@@ -10,8 +10,9 @@ let var4 = var1 ?? var2;
 //var1 은 undefined, var2는 10으로 초기화된 값임
 //var2 는 10이니까 undefined 나 null이 아님.
 // 그러므로 10이 var4에 저장됨
+// undefined 이나 null은 저장이 되지 않음
 
-//console.log(var4);
+console.log(var4);
 
 let var5 = var1 ?? var3;
 //console.log(var5);
@@ -31,7 +32,7 @@ let userNickname = "josh";
 
 //userName이 있다면 화면에 userName 표시하고, 없다면 닉네임 표시해라(저장해라)
 let displayName = userName ?? userNickname; // 항 2개
-//console.log(displayName);
+console.log(displayName);
 
 // 2. Typeof 연산자
 // -> 값의 "현재 타입" 을 문자열로 변환하는 기능을 하는 연산자

@@ -11,14 +11,16 @@ function funcA() {
 }
 
 console.log(a);
+//1
 
 funcA();
+//1
 
 if (true) {
   let c = 1;
 }
 
-//console.log(c); -> 지역 스코프라 실행불가
+// console.log(c); -> 지역 스코프라 실행불가
 
 for (let i = 0; i <= 10; i++) {
   let d = 1; // 지역 스코프
