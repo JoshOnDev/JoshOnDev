@@ -30,6 +30,7 @@ switch (animal) {
   }
   case "bear": {
     console.log("곰");
+    break;
   }
   case "tiger": {
     console.log("호랑이");

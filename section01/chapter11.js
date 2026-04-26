@@ -6,7 +6,6 @@ function greeting() {
 }
 // 함수는 선언한다고 실행되지 않음
 // 함수는 호출해야 함
-
 //greeting(); //함수의 선언 꼭 소괄호를 같이 써줘야 함.
 
 // 함수가 호출되면 프로그램 순서가 함수 내부로 들어감.
@@ -36,7 +35,7 @@ function getArea(weight, height) {
 }
 
 getArea(10, 20);
-console.log("dd");
+
 let area1 = getArea(20, 20);
 
 getArea(100, 200);

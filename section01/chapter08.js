@@ -5,7 +5,8 @@
 let var1; // undefined
 let var2 = 10;
 let var3 = 20;
-
+console.log("1");
+console.log(var1);
 let var4 = var1 ?? var2;
 //var1 은 undefined, var2는 10으로 초기화된 값임
 //var2 는 10이니까 undefined 나 null이 아님.
@@ -39,6 +40,7 @@ console.log(displayName);
 
 let var8 = 1; // 숫자
 var8 = "1"; // string 문자열로 바꿈
+const nn = 1;
 
 let t1 = typeof var8;
 // -> var8의 현재 변수 타입이 뭐냐?

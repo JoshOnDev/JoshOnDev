@@ -20,7 +20,6 @@ console.log(10 + strToNum1);
 
 let str2 = "10개";
 let strToNum2 = Number(str2);
-console.log("dd");
 console.log(strToNum2);
 // -> Nan (Not a Number), 사칙 연산 실패
 
