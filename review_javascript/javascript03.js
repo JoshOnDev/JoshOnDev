@@ -1,6 +1,6 @@
 //함수를 변수에 담기
 function funcA() {
-    console.log("hi");
+  console.log("hi");
 }
 let varA = funcA;
 // -> 호출해서 결과값을 변수에 담은 게 아니라 함수 자체를 변수에 담음
@@ -8,9 +8,9 @@ let varA = funcA;
 varA();
 // 함수를 변수로 호출가능함
 
-let varB = function funcB {
-    console.log("hello");
-}
+let varB = function funcB() {
+  console.log("hello");
+};
 
 varB();
 // 함수를 만들자마자 변수에 담는 것 가능
@@ -22,20 +22,18 @@ varB();
 // 함수 이름으로는 호출이 안됨. 변수이름으로만
 // 호출할 수 있음
 // 그래서 변수에 담긴 함수는 호이스팅 안되고
-// 값으로서 취급되기 때문에 함수 표현식으로 만든 함수는 
+// 값으로서 취급되기 때문에 함수 표현식으로 만든 함수는
 // 직접 함수 이름으로 호출 불가함.
 
 // 화살표 함수
 
-let varC = function(){
-    return 1;
-}
+let varC = function () {
+  return 1;
+};
 
 //function 지우고 소괄호 중괄호 사이에 화살표 넣기
 
-let varD = () => {
-
-};
+let varD = () => {};
 
 // 한 번 더 축약하려면(함수가 값을 반환하기만 할 때)
 // 중괄호와 리턴문도 지우기
@@ -44,15 +42,15 @@ console.log(varE());
 //1
 
 //매개변수 필요할 때
-let varF = (value) => value +1;
+let varF = (value) => value + 1;
 
 console.log(varF(1));
 
 // 추가적인 작업 필요할 때
 
 let varG = (value) => {
-    console.log("hello");
-    value + 10;
-}
+  console.log("hello");
+  value + 10;
+};
 
 console.log(varG(1));

@@ -5,6 +5,10 @@ function funcA() {
 
 let varA = funcA; // 초기값으로 funcA를 호출한 결과가 아니라 함수 자체를 저장
 //함수 자체가 콘솔에 출력됨.
+varA = funcA();
+// 함수를 변수에 담아둘 수 있음
+// 변수 이름으로 호출도 가능
+// -> varA();
 
 console.log(varA);
 
