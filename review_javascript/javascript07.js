@@ -24,3 +24,15 @@ let people = {
 };
 
 console.log(people);
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+let arr3 = [...arr1, ...arr2];
+
+let arr4 = [1, 2, 3];
+let arr5 = [4, 5, 6];
+
+let arr6 = [...arr4, ...arr5];
+
+console.log(arr6);
