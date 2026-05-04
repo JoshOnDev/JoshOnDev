@@ -1,4 +1,4 @@
-console.log("자바스크립트 함수 연습");
+// console.log("자바스크립트 함수 연습");
 
 // 함수 선언식과 함수 표현식
 // 함수 선언식
@@ -22,7 +22,7 @@ let people = {
   ...person,
 };
 
-console.log(people);
+// console.log(people);
 
 let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
@@ -34,4 +34,10 @@ let arr5 = [4, 5, 6];
 
 let arr6 = [...arr4, ...arr5];
 
-console.log(arr6);
+// console.log(arr6);
+
+let arr11 = [(name = "정성운"), (age = 27)];
+
+let ar01 = arr11;
+
+console.log(ar01[1]);
